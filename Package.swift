@@ -23,14 +23,6 @@ let package = Package(
             dependencies: ["LoggerExtension"],
             resources: [
                 .process("json")
-            ],
-            swiftSettings: [
-                .unsafeFlags([
-                    "-Xfrontend",
-                    "-warn-long-function-bodies=100",
-                    "-Xfrontend",
-                    "-warn-long-expression-type-checking=100"
-                ])
             ]),
         .testTarget(
             name: "TestUtilsTests",
