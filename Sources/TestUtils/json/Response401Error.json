@@ -1,0 +1,7 @@
+{
+    "apiVersion": "0.1",
+    "errorResponse": {
+        "code": 401,
+        "message": "Error: this JSON operation requires an authenticated session."
+    }
+}
